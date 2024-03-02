@@ -1,0 +1,30 @@
+.navbar{
+    background-color:  azure; /* Gezgin çubuğu arkaplan rengi */
+    color: #fff; /* Gezgin çubuğu metin rengi */
+    padding: 5px 0; /* Yatay ve dikey dolgu ekleyin */
+  
+    .nav-list{
+        list-style-type: none; /* Madde işaretlerini gizle */
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        flex-direction: row;
+    .nav-item{
+        padding: 20px;
+        list-style-type: none; /* Madde işaretlerini gizle */
+        text-align: center; /* Metinleri ortala */
+    a{
+        text-decoration: none; /* Link altı çizgilerini kaldırın */
+        color:  black; /* Link metin rengi */
+        font-weight: bold; /* Kalın metin stilini ayarlayın */
+        transition: color 0.3s; /* Renk değişimini yumuşatın */ 
+
+        &:hover {
+            cursor: pointer;
+            color: #990000;
+                }
+            }
+        }
+    }
+}
+

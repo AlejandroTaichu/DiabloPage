@@ -1,0 +1,64 @@
+*{
+    margin: auto;
+}
+    .hero-img {
+        background-image: url('https://i.redd.it/5vyohdzu54qa1.png'); /* Arkaplan resmi */
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center center;
+        height: 60vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        text-align: center;
+    }
+    @font-face {
+        font-family: 'Diabolica-VRBB';
+        src: url('../../assets/fonts/Diabolica-VRBB.ttf');
+      }
+    
+    .h1-hero {
+        font-family: 'Diabolica-VRBB';
+        padding: 0 50px;
+        text-align:center;
+        font-family: fantasy;
+        font-size: 36px;
+        margin: 0;
+        animation: colorChange 5s infinite alternate; /* Renk değişimi animasyonunu tanımla */
+    }
+    
+    @keyframes colorChange {
+        0% {
+            color: azure; /* Başlangıç rengi */
+        }
+        50% {
+            color: #990000; /* Renk değişimi noktası (örneğin, yarı nokta) */
+        }
+        100% {
+            color: black; /* Son renk (başlangıç rengine geri dönüş) */
+        }
+    }
+    
+    .p1-hero {
+        font-family:fantasy;
+        font-size: 18px; /* Paragraf boyutu */
+        margin: 10px 0;
+        color: azure;
+    }
+    
+    .b1-hero {
+        font-size: 16px; /* Buton boyutu */
+        padding: 10px 20px;
+        margin-top: 10px;   
+        background-color: #ff0000; /* Buton arka plan rengi */
+        color: #fff; /* Buton metin rengi */
+        border: none;
+        cursor: pointer;
+        transition: background-color 0.3s;
+    }
+    
+    .b1-hero:hover {
+        background-color: #990000; /* Butonun üzerine gelindiğinde arka plan rengi */
+    }
+    

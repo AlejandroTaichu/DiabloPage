@@ -1,0 +1,48 @@
+.footer {
+    background-color:azure; /* Footer'ın arka plan rengi */
+    color: #fff;
+    padding: 20px 0;
+}
+.footer-content {
+    
+    margin:0;
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo-image {
+    max-width: 100px;
+}
+.footer-logo img {
+    max-width: 100px; 
+}
+.footer-links ul {
+    display: flex; /* Bağlantıları yatayda yan yana sırala */
+    justify-content: space-between; /* Bağlantılar arasındaki boşluğu eşit olarak dağıt */
+    list-style: none;
+    padding: 10;
+}
+.footer-links ul li {
+    margin-right: 25px;
+    margin-bottom: 10px;
+}
+
+.footer-links ul li a {
+    text-decoration: none;
+    color: #990000;
+}
+
+.footer-social a {
+    font-size: 24px;
+    margin-right: 10px;
+    text-decoration: none;
+    color: #990000;
+}
+
+.footer-bottom {
+    background-color: #990000;
+    padding: 10px 0;
+    text-align: center;
+}
